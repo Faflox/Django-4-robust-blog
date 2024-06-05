@@ -1,3 +1,4 @@
+{% load blog_tags %}
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,9 @@
     </div>
     <div id="sidebar">
         <h1><a href="{% url 'blog:post_list' %}">Mój blog</a></h1>
-        <p>To jest mój blog.</p>
+        <p>To jest mój blog.<br>
+            Znajdziesz na nim {%total_posts%} postów.
+        </p>
     </div>
 </body>
 </html>
