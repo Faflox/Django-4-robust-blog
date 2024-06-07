@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-71&l&ztyw6u+z4u=y*5yw7in21#79d0=(*#v(pqqez$=n(1xw=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.4', '127.0.0.1']
 
 SITE_ID = 1
 
@@ -86,6 +86,8 @@ DATABASES = {
         'NAME': 'blog_data',
         'USER': 'blog',
         'PASSWORD': 'blog',
+        'HOST': '192.168.1.4',
+        'PORT': '5432',
     }
 }
 
