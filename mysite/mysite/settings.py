@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-71&l&ztyw6u+z4u=y*5yw7in21#79d0=(*#v(pqqez$=n(1xw=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#Typed in my mac ip address(en0) that i got from using ifconfig
+ALLOWED_HOSTS = ['192.168.1.4']
 
 SITE_ID = 1
 
